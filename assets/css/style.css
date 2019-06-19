@@ -1,43 +1,5 @@
-body {
-    background: url(light-grey-terrazzo.png);
+body{
     margin: 0;
     padding: 0;
+    background-image: url("palm-leaf.png");
 }
-header{
-    position: relative;
-    border-bottom: solid;
-    border-width: .15em;
-    border-color: lightgray;
-    padding-right: 6em;
-    background-color: whitesmoke
-}
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white;
-    background-color: #4AAAA5;
-    font-size: 1em;
-    width: 4em;
-    padding: 1em;
-    height: 3em;
-}
-ul{
-    display: flex;
-    float: right;
-    margin: 10em;
-}
-li{
-    display: inline;
-    padding: .25em;
-    border-right: 0.1em solid;
-    color: #b0adb0;
-}
-h2{
-    color: #4AAAA5;
-    margin-left: 7em;
-}
-article{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
