@@ -1,5 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
-    background-image: url("palm-leaf.png");
+    background-image: url("../css/palm-leaf.png");
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1{
+    display: inline-block;
+    color:white;
+    font-size: 20px;
+    background-color:#4aaaa5;
+    width: auto;
+    padding: 1.3em;
+    margin-left: 10em;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    margin-left: 40em;
+    font-size: 12px;
+}
+li{
+    display: inline;
+    border-right: 2px solid;
+    border-right-color: #cccccc;
+    padding: 10px;
+}
+nav a{
+    color: #cccccc;
+    text-decoration-line: none;
+}
+header{
+    border-bottom: 1px solid;
+    border-bottom-color: #cccccc;
+    height: 70px;
+    overflow: hidden;
+    background-color:#ffffff;
+}
+h2{
+    color: #4aaaa5;
+    font-size:20px;
+    border-bottom: 1px solid;
+    border-bottom-color: #cccccc;
+    padding: 20px;
+}
+.information{
+    display: inline-block;
+    color: #777777;
+}
+img{
+    margin-left: 20px;
+    padding: 20px;
+    text-align: right;
+    display: inline-block; 
+
+}
+article{
+    margin-left:12em;
+    width:960px; 
+    background-color: #ffffff;
+    margin-top: 2em;
 }
