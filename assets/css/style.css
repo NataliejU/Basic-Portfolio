@@ -48,19 +48,34 @@ h2{
     padding: 20px;
 }
 .information{
-    display: inline-block;
     color: #777777;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 img{
     margin-left: 20px;
     padding: 20px;
-    text-align: right;
-    display: inline-block; 
-
+    display: inline; 
 }
 article{
     margin-left:12em;
     width:960px; 
     background-color: #ffffff;
     margin-top: 2em;
+    border: 1px solid;
+    border-color: #dddddd; 
+    padding: 2em;
 }
+footer{
+    background-color: #666666;
+    color: white;
+    bottom:0;
+    height: 35px;
+    text-align:center;
+    font-size: 10px;
+    margin-top: 5em;
+    border-top: 5px solid;
+    border-top-color: #4aaaa5;
+}
+
