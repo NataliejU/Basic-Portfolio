@@ -25,7 +25,7 @@ nav{
 }
 li{
     display: inline;
-    border-right: 2px solid;
+    border-right: 1px solid;
     border-right-color: #cccccc;
     padding: 10px;
 }
@@ -49,14 +49,20 @@ h2{
 }
 .information{
     color: #777777;
-    display: inline;
+    display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
+}
+.format{
+    width:60%;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 20px;
 }
 img{
     margin-left: 20px;
     padding: 20px;
-    display: inline; 
+    display: inline-block; 
 }
 article{
     margin-left:12em;
